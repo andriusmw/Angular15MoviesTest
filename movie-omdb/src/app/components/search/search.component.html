@@ -1,1 +1,11 @@
-<button class="btn btn-primary">Hola</button>
+<div class="colum">
+  <div class="row">
+    <div class="col-12">
+      <div class="mt-3">
+        <label for="search" class="form-label">Búsqueda</label>
+        <input type="text" class="form-control" id="search" placeholder="Introduce Título..." [(ngModel)]="busqueda">
+        <button class="btn btn-primary" (click)="buscar()">Buscar</button>
+      </div>
+    </div>
+  </div>
+</div>
